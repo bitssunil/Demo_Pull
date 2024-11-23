@@ -1,0 +1,7 @@
+name: Scorecard
+on: [push, pull_request]
+jobs:
+  scorecard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ossf/scorecard-action@v2
